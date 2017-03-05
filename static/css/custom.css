@@ -1,0 +1,38 @@
+/* Custom CSS */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+body {
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+}
+
+li {
+	line-height: 170%;
+	padding-bottom: 5px;
+}
+
+.intro-header .page-heading h1 {
+	font-size: 70px;
+}
+
+.navbar-right {
+	margin-right: 0px;
+}
+
+.navbar-custom .nav li a {
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 0.9em;
+}
+
+.navbar-custom .avatar-container  .avatar-img-border {
+	box-shadow: 0 0 2px rgba(0, 0, 0, .4);
+	-webkit-box-shadow: 0 0 2px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 0 0 2px rgba(0, 0, 0, .4);
+}
