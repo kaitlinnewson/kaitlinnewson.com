@@ -2,6 +2,7 @@ baseurl = "https://username.github.io"
 languageCode = "en-us"
 title = "Beautiful Hugo"
 theme = "beautifulhugo"
+metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
 #disqusShortname = "XXX"
@@ -11,7 +12,20 @@ pygmentCodeFences = true
   subtitle = "Build a beautiful and simple website in minutes"
   logo = "img/avatar-icon.png"
   favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
   commit = false
+  rss = true
+  comments = true
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
 
 [Author]
   name = "Some Person"
@@ -49,13 +63,21 @@ pygmentCodeFences = true
 
 [[menu.main]]
     parent = "samples"
-    name = "Code Sample"
-    url = "/post/2016-03-08-code-sample"
+    name = "Big Image Sample"
+    url = "/post/2017-03-07-bigimg-sample"
+    weight = 1
 
 [[menu.main]]
     parent = "samples"
-    name = "Test Markdown"
-    url = "/post/2015-02-20-test-markdown"
+    name = "Math Sample"
+    url = "/post/2017-03-05-math-sample"
+    weight = 2
+
+[[menu.main]]
+    parent = "samples"
+    name = "Code Sample"
+    url = "/post/2016-03-08-code-sample"
+    weight = 3
 
 [[menu.main]]
     name = "Tags"

@@ -1,12 +1,12 @@
 ---
-layout: page
-title: Resume
+title: CV
+comments: false
 ---
 
-## Work
+## Experience
 
 **Digital Projects Librarian**<br>
-Scholars Portal<br>
+[Scholars Portal](http://scholarsportal.info)<br>
 Feb 2016 – Present
 
 **I+IT Intern**<br>

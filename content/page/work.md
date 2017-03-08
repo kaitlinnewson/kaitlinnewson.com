@@ -1,14 +1,14 @@
 ---
-layout: page
-title: Projects
+title: Work
+comments: false
 ---
 
 ## Posters & Presentations
-* Code4Lib 2017 Poster - [PDF](/docs/Code4Lib2017_Poster.pdf) & [PNG](/docs/Code4Lib2017_Poster.png)
+* [Code4Lib 2017 Poster](../c4l17) - Static website generators: An overview
 
 ## Association of Canadian Map Libraries & Archives
 
-* [Carto 2017 Conference Site](http://acmla-acacc.ca/carto2017/)
+* [Carto 2017 Conference Site](http://acmla-acacc.ca/carto2017/) (in development)
 * [Carto 2016 Conference Site](http://acmla-acacc.ca/carto2016/)
 
 ## University of Toronto Faculty of Information

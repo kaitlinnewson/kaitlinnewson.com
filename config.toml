@@ -2,6 +2,7 @@ baseurl = "https://kaitlinnewson.com"
 languageCode = "en-us"
 title = "Kaitlin Newson"
 theme = "beautifulhugo"
+metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
 googleAnalytics = "UA-52735236-1"
@@ -10,7 +11,10 @@ googleAnalytics = "UA-52735236-1"
   subtitle = "Digital Projects Librarian <br> Toronto, ON"
   logo = "img/avatar.png"
   favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
   commit = false
+  rss = false
+  comments = false
   copyright = 2017
 
 [Author]
@@ -29,11 +33,11 @@ googleAnalytics = "UA-52735236-1"
 ##    weight = 1
 
 [[menu.main]]
-    name = "Projects"
-    url = "/page/projects/"
+    name = "Work"
+    url = "/page/work/"
     weight = 1
 
 [[menu.main]]
-    name = "Resume"
-    url = "/page/resume/"
+    name = "CV"
+    url = "/page/cv/"
     weight = 2
