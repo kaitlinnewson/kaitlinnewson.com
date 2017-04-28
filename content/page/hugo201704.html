@@ -1,0 +1,297 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Building Static Sites with Hugo</title>
+
+		<link rel="stylesheet" href="/css/reveal.css">
+		<link rel="stylesheet" href="/css/theme/night.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '/css/print/pdf.css' : '/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Static Website Generators</h1>
+					<h2>Kaitlin Newson</h2>
+					<p><a href="https://twitter.com/kaitlinnewson">@kaitlinnewson</a> | <a href="https://kaitlinnewson.com">kaitlinnewson.com</a></p>
+						<aside class="notes">
+							Introduce self
+							Slides will be available online and shared on meetup group
+						</aside>
+				</section>
+
+				<section>
+					<h2>Dynamic vs. Static Websites</h2>
+						<aside class="notes">
+						Before we talk about static site generators, it's important to know what a static site is, and how it's different from a dynamic site. Understanding the difference can help you decide if a static site is the right choice for your project.
+						</aside>
+				</section>
+
+				<section>
+						<h2>What is a dynamic website?</h2>
+						<ul>
+							<li>Has a back-end scripting language and database</li>
+							<li>May use a content management system (WordPress, Drupal, etc)</li>
+							<li>Allows for more user input &amp; interaction</li>
+						</ul>
+						<aside class="notes">
+							A dynamic website generally uses a back-end scripting language, like PHP or Ruby, along with a database like SQL. Dynamic sites might be built with a content managemeny system, like WordPress or Drupal. These sites may accept user input, have accounts, and do other things that require server-side scripting and a database. Dynamic sites are generally more interactive.
+						</aside>
+				</section>
+
+				<section>
+						<h2>What is a static website?</h2>
+						<ul>
+							<li>Made up of HTML, CSS, &amp; JavaScript</li>
+							<li>No back-end scripting languages or databases</li>
+							<li>Displayed to user as it exists on the server</li>
+						</ul>
+						<aside class="notes">
+							A static website is made up of HTML, CSS, and may have some Javascript
+							It doesn't use a back end scripting language, like PHP or Ruby, and it doesn't have a database. A static site is displayed to the user exactly as it exists on the web server, so it doesn't pull in content from a separate SQL database, or take user input (typically).
+						</aside>
+				</section>
+
+				<section>
+						<h2>What is a static website generator?</h2>
+						<ul>
+							<li>Template language &amp; markup language</li>
+							<li>Compiles into HTML/CSS files</li>
+							<li>Built-in server for testing</li>
+							<li>Many options - 181 on <a href="https://www.staticgen.com/">staticgen.com</a></li>
+							<li>Most popular is Jekyll</li>
+						</ul>
+						<aside class="notes">
+							Some notes
+						</aside>
+				</section>
+
+				<section>
+					<h2>Benefits</h2>
+					<ul>
+						<li>Performance &amp; speed</li>
+						<li>Less technical maintenance</li>
+						<li>Less resource intensive</li>
+						<li>Security benefits</li>
+						<li>Version control</li>
+						<li>Simple hosting, e.g. Github pages</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Drawbacks</h2>
+					<ul>
+						<li>No WYSIWIG/editing environment</li>
+						<li>Learning curve</li>
+						<li>Scalability</li>
+						<aside class="notes">
+							Static site generators are not without their disadvantages. They don't have an admin interface or an editing environment like a content management system does, so there's some technical skill required to update the site. There are tools being developed to improve on this, but at this point there's still some technical knowledge needed to do content updates.
+
+							Since some technical skill is required, there can be a bit of a learning curve involved with static generators. You need to understand some HTML and CSS, some command line and git basics, and if you want to do a lot of site customization, you'll need to learn the templating language that's being used.
+
+							Finally, static sites may be more challenging to manage the larger that they get. 
+						</aside>
+					</ul>
+				</section>
+
+				<section>
+				<h2>Demo (Hugo)</h2>
+				</section>
+
+				<section>
+					<h2>Install</h2>
+					<p><a href="https://gohugo.io/overview/installing/">gohugo.io/overview/installing</a></p>
+					<p>Linux (snapd):  <code>sudo snap install hugo</code></p>
+					<p>Mac (homebrew):  <code>brew install hugo</code></p>
+					<p>Windows: <a href=https://github.com/spf13/hugo/releases>Download from github</a> &amp; add hugo.exe to your path</p>
+					<aside class="notes">
+						Some notes
+					</aside>
+				</section>
+
+				<section>
+					<h2>Create your site</h2>
+					<pre><code>
+hugo new site demosite
+cd demosite/
+					</code></pre>
+					<section>
+						<img src="/img/hugo201704/directory.png" alt="Hugo folder structure">
+					</section>
+				</section>
+
+				<section>
+					<h2>Select a theme</h2>
+					<p><a href="http://themes.gohugo.io/">themes.gohugo.io</a></p>
+					<img src="/img/hugo201704/themespage.png">
+				</section>
+
+				<section>
+					<p><a href="http://themes.gohugo.io/beautifulhugo/">themes.gohugo.io/beautifulhugo</a></p>
+					<img src="/img/hugo201704/beautifulhugo.png">
+					<pre><code>
+git clone https://github.com/halogenica/beautifulhugo.git themes/beautifulhugo
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>Copy example site folder in theme into the main directory</h2>
+					<pre><code>
+cp -r themes/beautifulhugo/exampleSite/* .
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>See your site so far</h2>
+					<pre><code>
+hugo serve
+					</code></pre>
+					<p>Visit <a href="http://localhost:1313/">localhost:1313</a> in your browser</p>
+				</section>
+
+				<section>
+					<h2>Add your content</h2>
+					<p>Content lives in <code>config.toml</code> and the <code>content/</code> and <code>data/</code> folders</p>
+					<p>Assets live in <code>static/</code>, e.g. images, custom css files</p>
+					<p>Content structure may vary between themes</p>
+				</section>
+
+				<section>
+					<h2>config.toml</h2>
+					<p><a href="https://gohugo.io/overview/configuration/">gohugo.io/overview/configuration</a></p>
+					<pre><code>
+baseurl = "https://username.github.io"
+DefaultContentLanguage = "en"
+#DefaultContentLanguage = "ja"
+title = "Beautiful Hugo"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentCodeFences = true
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+subtitle = "Build a beautiful and simple website in minutes"
+logo = "img/avatar-icon.png"
+favicon = "img/favicon.ico"
+dateFormat = "January 2, 2006"
+commit = false
+rss = true
+comments = true
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>Content creation</h2>
+					<p>Hugo content is written in Markdown</p>
+					<p>HTML can also be added</p>
+					<pre><code>
+**Here is some bold text**
+
+## Here is a secondary heading
+
+Here's a useless table:
+ 
+| Number | Next number | Previous number |
+| :------ |:--- | :--- |
+| Five | Six | Four |
+| Ten | Eleven | Nine |
+| Seven | Eight | Six |
+| Two | Three | One |
+
+Here's an image:
+
+![Crepe](http://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>Customize</h2>
+					<ul>
+						<li>Overwrite layouts or CSS</li>
+						<li>Copy layout files into the layouts folder, following theme structure</li>
+						<li>Do not edit the theme files directly!</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Build the public files</h2>
+					<pre><code>
+cd mysitename
+hugo
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>Move public files to server</h2>
+					<p>Copy the contents of the public folder to the web server, or use <a href="https://pages.github.com/">Github pages</a></p>
+				</section>
+
+				<section>
+					<h2>Success!</h2>
+				</section>
+
+				<section>
+					<h2>Resources</h2>
+					<ul>
+						<li><a href="https://gohugo.io/">gohugo.io</a></li>
+						<li><a href="https://gohugo.io/tutorials/github-pages-blog/">Using Github pages with Hugo</a></li>
+						<li><a href="http://markdowntutorial.com/">Markdown tutorial</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Hugo example sites</h2>
+					<ul>
+						<li><a href="http://ocul.on.ca/topomaps/">OCUL Historical Topographic Maps Project</a></li>
+						<li><a href="https://cloud.scholarsportal.info/">Ontario Library Research Cloud</a></li>
+						<li><a href="https://acmla-acacc.ca/carto2017/">Carto 2017 Conference</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Get in touch</h2>
+					<ul>
+					<li>twitter - <a href="https://twitter.com/kaitlinnewson">@kaitlinnewson</a></li>
+					<li>email - <a href="mailto:kaitlin@scholarsportal.info">kaitlin@scholarsportal.info</a></li>
+					<li>web - <a href="https://kaitlinnewson.com">kaitlinnewson.com</a></li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+		<script src="/lib/js/head.min.js"></script>
+		<script src="/js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: '/plugin/markdown/marked.js' },
+					{ src: '/plugin/markdown/markdown.js' },
+					{ src: '/plugin/notes/notes.js', async: true },
+					{ src: '/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
