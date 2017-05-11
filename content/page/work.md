@@ -5,6 +5,7 @@ comments: false
 
 ## Presentations & Workshops
 
+* [Code4Lib North 2017](../c4ln17) - Static Site Generators
 * [Code4Lib Toronto Workshop](../hugo201704) - Static website Generators (with Hugo)
 * [Code4Lib 2017 Poster](../c4l17) - Static website generators: An overview
 
