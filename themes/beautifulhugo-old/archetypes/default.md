@@ -1,6 +1,0 @@
----
-subtitle: ""
-comments: 
-tags: []
-bigimg: [{}]
----
