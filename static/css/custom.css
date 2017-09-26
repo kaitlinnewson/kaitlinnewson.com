@@ -22,6 +22,10 @@ li {
 	font-size: 70px;
 }
 
+.intro-header .page-heading .page-subheading, .intro-header .post-heading .post-subheading {
+	line-height: 1.5;
+}
+
 .navbar-right {
 	margin-right: 0px;
 }
