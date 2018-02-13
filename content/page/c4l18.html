@@ -1,0 +1,517 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Static Site Generators workshop, Code4Lib 2018</title>
+
+		<link rel="stylesheet" href="/css/reveal.css">
+		<link rel="stylesheet" href="/css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>Getting Started with Static Website Generators</h2>
+					<p>Kaitlin Newson (<a href="https://twitter.com/kaitlinnewson">@kaitlinnewson</a>), Digital Projects Librarian, Scholars Portal</p>
+					<p>Kim Pham (<a href="https://twitter.com/tolloid">@tolloid</a>), Digital Projects Librarian, University of Toronto Scarborough</p>
+					<p>Git repo: <a href="https://git.io/vALv2">git.io/vALv2</a></p>
+				</section>
+
+				<section>
+					<h2>Outline/Agenda</h2>
+					<ol>
+						<li>Installing Hugo &amp; troubleshooting</li>
+						<li>Background - what are static site generators, and why should I use them?</li>
+						<li>Markdown</li>
+						<li>Hugo directory structure</li>
+						<li>Create a starter site</li>
+						<li>Break</li>
+						<li>Exercises</li>
+						<li>Other useful tools</li>
+						<li>Discussion</li>
+					</ol>
+				</section>
+
+				<section>
+					<h2>Installation troubleshooting</h2>
+					<p><a href="https://gohugo.io/getting-started/installing/">https://gohugo.io/getting-started/installing/</a></p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section>
+						<h2>What is a static website?</h2>
+						<ul>
+							<li>Made up of HTML, CSS, &amp; JavaScript</li>
+							<li>No back-end scripting languages, databases, or CMS</li>
+							<li>Displayed to user as it exists on the server</li>
+						</ul>
+						<aside class="notes">
+							A static website is made up of HTML, CSS, and may have some Javascript
+							It doesn't use a back end scripting language, like PHP or Ruby, and it doesn't have a database. A static site is displayed to the user exactly as it exists on the web server, so it doesn't pull in content from a separate SQL database, or take user input (typically).
+						</aside>
+				</section>
+
+				<section>
+						<h2>What is a static website generator?</h2>
+						<ul>
+							<li>Template language &amp; markup language</li>
+							<li>Compiles into HTML/CSS files</li>
+							<li>Built-in server for testing</li>
+							<li>Many options - over 200 options on <a href="https://www.staticgen.com/">staticgen.com</a></li>
+							<li>Most popular is Jekyll (built with Ruby), followed by Hugo (built with Go)</li>
+						</ul>
+						<aside class="notes">
+							The website staticgen.com, which tracks static site generators, currently has over 200 (210) listed.
+						</aside>
+				</section>
+
+				<section>
+					<h2>Examples</h2>
+					<p>Code4Lib Conference site</p>
+				</section>
+
+				<section>
+					<p>Historical Topographic Map Digitization project <a href="https://ocul.on.ca/topomaps">https://ocul.on.ca/topomaps</a></p>
+					<img src="/img/201705-c4ln/topomaps.png" alt="Screenshot of the topographic maps website">
+				</section>
+
+				<section>
+					<p>Archives Unleashed<br> <a href="http://archivesunleashed.org/">http://archivesunleashed.org/</a></p>
+					<img src="/img/c4l18/archivesunleashed.png" alt="Screenshot of the archives unleashed website">
+				</section>
+
+				<section>
+					<h2>Benefits</h2>
+					<ul>
+						<li>Performance &amp; speed</li>
+						<li>Less technical maintenance</li>
+						<li>Less resource intensive</li>
+						<li>Security benefits</li>
+						<li>Version control</li>
+						<li>Simple hosting options, e.g. Github pages</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Drawbacks</h2>
+					<ul>
+						<li>Learning curve</li>
+						<li>No editing environment (but there are options)</li>
+						<li>No dynamic elements</li>
+						<aside class="notes">
+							Static site generators are not without their disadvantages. They don't have an admin interface or an editing environment like a content management system does, so there's some technical skill required to update the site. There are tools being developed to improve on this, but at this point there's still some technical knowledge needed to do content updates. At Scholars Portal, we've been using the editor built into Github for some basic content editing.
+
+							Since some technical skill is required, there can be a bit of a learning curve involved with static generators. You need to understand some HTML and CSS, some command line and git basics, and if you want to do a lot of site customization, you'll need to learn the templating language that's being used. These may be barriers for any less technical people involved in the web development process.
+
+							Finally, because they are static, static sites don't have the option for dynamic elements, like user accounts or other kinds of interaction with a user.
+						</aside>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Markdown</h2>
+					<p></p>
+				</section>
+				<section>
+					<h2>Content Management</h2>
+					<ul>
+						<li>Hugo natively supports Markdown and Emacs Org-Mode</li>
+						<li>but there are additional formats such as asciidoc that are supported via external helpers</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Introduction to Markdown</h2>
+					<p>Markdown is a relatively new syntax.</p>
+					<blockquote>
+						<p>The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible.<br>
+						The idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions.</p>
+					</blockquote>
+				</section>
+				<section>
+					<h2>Benefits</h2>
+					<ul>
+						<li>Readable</li>
+						<li>Durable</li>
+						<li>Legible, easy to understand</li>
+						<li>Supported on various content management applications</li>
+					</ul>
+				</section>
+				<section>
+					<h3> Make your own Markdown file</h3>
+					<ul>
+						<li>
+							<p>Lets practicing Markdown syntax in the browser using <a href="http://dillinger.io">dillinger.io</a>. You’ll be able to enter Markdown-formatted text on the left and immediately see the rendered version alongside it on the right.</p>
+						</li>
+					</ul>
+				</section>
+				<section>
+					<p>In your browser, go to <a href="http://dillinger.io">dillinger.io</a></p>
+					<p>Dillinger automatically creates a new document for you. You may enter a title for the document in the textbox on the top of the page if you like.</p>
+				</section>
+				<section>
+					<h3>Markdown Syntax</h3>
+					<h4>Headings</h4>
+					<p>Headings are hierarchical. Use the hash symbol.</p>
+					<p> # for h1</p>
+					<p>## for h2</p>
+					<p>### for h3</p>
+					<p> and so on...</p>
+				</section>
+				<section>
+					<h4>Paragraphs &amp; Line Breaks</h4>
+					<p>If I tried to type the following sentence into a Github .md file:</p>
+					<pre><code>Hello!
+
+Today we'll be learning about Markdown syntax.
+This sentence is separated by a single line break from the preceding one.
+
+					</code></pre>
+				</section>
+				<section>
+					<p>It would render as:</p>
+
+					<pre><code>Hello!
+Today we’ll be learning about Markdown syntax. This sentence is separated by a single line break from the preceding one.
+
+	</code></pre>
+				</section>
+				<section>
+					<p>Paragraphs must be separated by an empty line, so leave an empty line between syntax.</p>
+				</section>
+				<section>
+					<h4>Emphasis</h4>
+					<h4>Lists</h4>
+					<h4>Snippets</h4>
+					<h4>Links</h4>
+					<h4>Images</h4>
+					<h4>Tables</h4>
+					<p>Use <a href="http://stevecat.net/table-magic/#">http://stevecat.net/table-magic/</a> to make easy markdown tables!</p>
+				</section>
+	<section>
+		<h3>Markdown and Github</h3>
+		<ul>
+			<li>Markdown is used in many places in Github</li>
+			<li>Github has its own Markdown syntax, called Github Flavoured Markdown - <a href="https://github.github.com/gfm/">https://github.github.com/gfm/</a></li>
+			<li>Dillinger is also integrated with Github</li>
+		</ul>
+	</section>
+
+				<section>
+					<h3>Hugo</h3>
+					<ul>
+						<li>In Hugo, you would name your files as <code>*.md</code> or set markup=“markdown” in front matter.</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Resources</h2>
+					<h3>Markdown Cheatsheet</h3>
+					<ul>
+						<li>
+							<a href="https://www.markdownguide.org/cheat-sheet">https://www.markdownguide.org/cheat-sheet</a>
+						</li>
+					</ul>
+				</section>
+				<section>
+					<h3>Web Tools Comparison:</h3>
+					<p>Many websites and publishing platforms also offer web-based editors and/or extensions for entering text using Markdown syntax.</p>
+				</section>
+				<section>
+					<table class="table table-striped table-bordered">
+						<thead>
+							<tr>
+								<th>Stackedit</th>
+								<th>Dillinger</th>
+								<th>Prose</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Sync from Github - navigate to locate files</td>
+								<td>Sync from Github - navigate to locate files</td>
+								<td>More closely integrated with github</td>
+							</tr>
+							<tr>
+								<td>Automatic commit message from Stackedit</td>
+								<td>Add your own commit message</td>
+								<td>Add your own commit message</td>
+							</tr>
+							<tr>
+								<td>Messes with your markdown: Adds extra Stackedit comment into markdown</td>
+								<td>No tampering</td>
+								<td>No tampering</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+				<section>
+					<ul>
+						<p>The really good Markdown tutorial that we adapted by Sarah Simpkin <a href="https://programminghistorian.org/lessons/getting-started-with-markdown">https://programminghistorian.org/lessons/getting-started-with-markdown</a></p>
+				</section>
+
+				<section>
+					<h2>Hugo</h2>
+					<p><a href="http://gohugo.io">gohugo.io</a></p>
+				</section>
+
+				<section>
+					<h2>Why Hugo?</h2>
+					<ul>
+						<li>Speed (&lt;1 millisecond/page)</li>
+						<li>Less dependencies</li>
+						<li>Built-in multilingual functionality</li>
+						<li>Integrations (Google analytics, formspree, disqus)</li>
+					</ul>
+					<aside class="notes">
+						So because there are lots of options, you might be wondering why I use Hugo when Jekyll is the most common. I like Hugo for a few reasons. For one, it's really fast to build the site, at less than 1 millisecond per page. This is especially nice when you're working on a bigger project with a lot of files.
+
+						I also like that I didn't have to install or worry about any dependencies. With some of the site generators I looked at, there were a lot of other things that needed to be installed, which I didn't have to worry about with Hugo.
+
+						Hugo also has some nice features. Multilingual is built-in, which is great when working on sites that are french and english. It's also really easy to add google analytics, contacts forms, and commenting systems if you want them.
+
+						Once you know how to use one though, it's easy to learn the other. The main difference is the templating language used.
+					</aside>
+				</section>
+
+				<section>
+						<h2>Hugo folder structure</h2>
+						<pre><code>
+	mySiteName/
+	├── archetypes
+	│   └── default.md
+	├── config.toml
+	├── content
+	├── data
+	├── layouts
+	├── static
+	└── themes
+						</code></pre>
+						<aside class="notes"></aside>
+					</section>
+
+					<section>
+						<h2>Archetypes</h2>
+						<p>Allow for the quick generation of a content type into a markdown file, such as a blog post</p>
+						<pre><code>
+---
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
+draft: true
+---
+						</code></pre>
+						<pre><code>
+hugo new SECTIONNAME/FILENAME.FORMAT
+hugo new post/2018-01-01.md
+						</code></pre>
+					</section>
+
+					<section>
+						<h2>Config.toml</h2>
+						<p>Defines site settings, like the url, language, meta information, which theme to use, etc.</p>
+						<p>Can be formatted at toml, yaml, or json.</p>
+						<pre>
+							<code>
+	baseURL = "http://example.org/"
+	languageCode = "en-us"
+	title = "My New Hugo Site"
+	theme = ""
+							</code>
+						</pre>
+					</section>
+
+					<section>
+						<h2>Data</h2>
+						<p>Data used in the website, usually formatted as yaml or json.</p>
+						<aside class="notes">For example, in the code4lib conference site the lists of speakers and locations are stored in this folder in yaml files.</aside>
+					</section>
+
+					<section>
+						<h2>Layouts</h2>
+						<ul>
+							<li>Templates for how different parts of the site will be rendered.</li>
+							<li>Can use logic, if statements, loops, variable comparisons, mathematical operators.</li>
+							<li>Use dot notation, e.g. .Params references params set in the config file.</li>
+						</ul>
+						<pre>
+							<code>
+	{{ if isset .Params "title" }}<h4>{{ index .Params "title" }}</h4>{{ end }}
+							</code>
+						</pre>
+					</section>
+
+					<section>
+						<h2>Static</h2>
+						<p>Contains any static assets, like images, CSS, or JavaScript.</p>
+						<p>When Hugo builds the site, content in this directory is copied over as-is.</p>
+					</section>
+
+					<section>
+						<h2>Themes</h2>
+						<p>Site themes</p>
+					</section>
+
+				<section>
+					<h2>Creating a static site hosted with Github Pages</h2>
+					<p>Follow along, and put up a blue sticky note if you get stuck.</p>
+					<p>We'll use this site for the exercises.</p>
+				</section>
+
+				<section>
+					<h2>Generate your site &amp; connect it to your git repo</h2>
+					<p>Create your repository on github and copy the link</p>
+					<pre><code>
+hugo new site mySiteName
+cd mySiteName
+git init
+git remote add origin https://github.com/username/repo-name.git
+git add .
+git commit -m "initial commit"
+git push -u origin master
+					</code></pre>
+					<p>Go to your repo on github, and you should see a couple of items have been added</p>
+					<aside class="notes"></aside>
+				</section>
+
+				<section>
+						<h2>Adding a theme</h2>
+						<ul>
+							<li>Themes are available on the Hugo themes site at <a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></li>
+							<li>We're going to use <a href="https://themes.gohugo.io/hugo-creative-portfolio-theme/">the Creative Portfolio theme</a></li>
+						</ul>
+						<pre><code>
+cd themes
+git clone https://github.com/kishaningithub/hugo-creative-portfolio-theme.git
+						</code></pre>
+						<p>Remove the .git folder in the theme directory so you can push it to Github later</p>
+						<aside class="notes"></aside>
+				</section>
+
+				<section>
+					<h2>Copy the theme's example site</h2>
+					<pre><code>
+cd .. (to your site root directory)
+cp -r themes/hugo-creative-portfolio-theme/exampleSite/* .
+					</code></pre>
+				</section>
+
+				<section>
+						<h2>See your site</h2>
+						<pre><code>
+	hugo serve
+						</code></pre>
+						<p>Go to localhost:1313 in your web browser</p>
+					</section>
+
+				<section>
+					<h2>Modify your config.toml</h2>
+					<p>Add this line for Github pages hosting: <br><code>publishDir = "docs"</code></p>
+					<p>Set your baseurl to: <br>https://<em>githubUsername</em>.github.io/<em>repo-name</em>/</p>
+					<p>Add your social media links under <code>params.social</code>, and remove any empty ones</p>
+				</section>
+
+				<section>
+					<h2>Get some images for the site</h2>
+					<p>Options are available in the github repo under 'sampleImages'</p>
+					<p>Copy the images folder to mySiteName/static/img/portfolio</p>
+				</section>
+
+				<section>
+					<h2>Create content</h2>
+					<p>In your 'content/portfolio' directory, copy the markdown files in the git repo at exampleSite/content/portfolio/</p>
+					<p>Update the markdown files if you're not using the dog images</p>
+				</section>
+
+				<section>
+					<h2>Push to Github pages</h2>
+					<p>Press CTRL+C to stop the hugo server</p>
+					<pre><code>
+hugo
+git add .
+git commit -m "build the site"
+git push
+					</code></pre>
+					<aside class="notes"></aside>
+				</section>
+
+				<section>
+						<h2>Customizing styles</h2>
+						<p>Depending on the theme, customizing the theme can vary - check the theme documentation.</p>
+						<p>For this theme, create a CSS file at <br><code>mySiteName/static/css/custom.css</code></p>
+						<aside class="notes">Depending on what theme you use, methods for adding custom CSS can vary. Many themes will have a custom.css file that you use to add your own, or you can change a template to include a CSS file.</aside>
+					</section>
+
+					<section>
+						<h2>Modifying templates</h2>
+						<p>When you override a template, copy the structure from the themes directory into your root directory.</p>
+						<aside class="notes">To override templates for an existing theme, copy the template from your themes directory into the root layouts directory. You should never edit anything in the theme directory, since that will make it harder to update and maintain over time.</aside>
+					</section>
+
+				<section>
+					<h2>Exercises</h2>
+					<p>See the README at <a href="https://git.io/vALv2">https://git.io/vALv2</a></p>
+					<aside class="notes"></aside>
+				</section>
+
+				<section>
+					<h2>Other Tools</h2>
+					<ul>
+						<li>Netlify CMS (<a href="https://www.netlifycms.org/">https://www.netlifycms.org/</a>)</li>
+						<li>Migration tools</li>
+					</ul>
+					<aside class="notes">
+						Netlify CMS is one example of a CMS that can be used with a static site generator in order to improve the content creation process. There are also a number of paid CMS options (e.g. Forestry).
+
+						Hugo and Jekyll both have a series of migration tools to move content from WordPress, Drupal, and many other content management systems. All are available in the jekyll and hugo docs.
+					</aside>
+				</section>
+
+				<section>
+					<h2>Learn more</h2>
+					<ul>
+						<li><a href="https://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages">Programming Historian static website tutorial</a></li>
+						<li><a href="https://www.safaribooksonline.com/library/view/working-with-static/9781491960936/">Working with Static Sites [book]</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Get in touch</h2>
+					<ul>
+						<p><a href="https://twitter.com/kaitlinnewson">@kaitlinnewson</a>, <a href="mailto:kaitlin@scholarsportal.info">kaitlin@scholarsportal.info</a></p>
+						<p><a href="https://twitter.com/tolloid">@tolloid</a>, <a href="mailto:kim.pham@utoronto.ca">kim.pham@utoronto.ca</a></p>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
