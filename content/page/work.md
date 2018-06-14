@@ -14,11 +14,12 @@ comments: false
 * [OCUL Historical Topographic Maps Project site](http://ocul.on.ca/topomaps/)
 * [Ontario Library Research Cloud site](https://cloud.scholarsportal.info/)
 * [Permafrost service site](https://permafrost.scholarsportal.info)
+* [RACER service request and user registration forms](https://racerforms.scholarsportal.info/)
 * [Scholars Portal service guides](https://learn.scholarsportal.info) (WordPress)
 
 ## Code4Lib
 
-* [Code4Lib 2018 Conference site](2018.code4lib.org)
+* [Code4Lib 2018 Conference site](2018.code4lib.org) contributor
 
 ## Association of Canadian Map Libraries & Archives
 
