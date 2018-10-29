@@ -1,8 +1,7 @@
 ---
 title: Work
-comments: false
-
 ---
+
 ## Presentations & Workshops
 
 * [Code4Lib North 2017](../c4ln17) - Static Site Generators

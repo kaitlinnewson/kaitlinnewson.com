@@ -1,8 +1,7 @@
 ---
 title: CV
-comments: false
-
 ---
+
 ## Experience
 
 **Digital Projects Librarian**<br>
@@ -43,8 +42,8 @@ Sept 2011 – Aug 2013
 
 ## Education
 
-**Certificate in Computer Programming Applications**<br>  
-Ryerson University<br>  
+**Certificate in Computer Programming Applications**<br>
+Ryerson University<br>
 2018 – Present (In Progress)
 
 **Master of Information**<br>

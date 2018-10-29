@@ -1,43 +1,47 @@
 baseurl = "https://kaitlinnewson.com"
-languageCode = "en-us"
 title = "Kaitlin Newson"
-theme = "beautifulhugo"
-metaDataFormat = "yaml"
-pygmentsUseClasses = true
-pygmentCodeFences = true
+theme = "jane"
+enableRobotsTXT = true
 googleAnalytics = "UA-52735236-1"
+paginate = 3
+defaultContentLanguage = "en"
+hasCJKLanguage = false
 
-[Params]
-  subtitle = "Digital Projects Librarian <br> Toronto, ON"
-  logo = "img/avatar.png"
-  favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
-  commit = false
-  rss = false
-  comments = false
-  copyright = 2017
+[author]
+    name = "Kaitlin"
 
-[Author]
-  name = "Kaitlin Newson"
-  email = "kaitlin@scholarsportal.info"
-  github = "kaitlinnewson"
-  twitter = "kaitlinnewson"
-  linkedin = "kaitlinnewson"
-  instagram = "librarypixels"
-  spotify = "librarypixels"
 
-## To be added back in later
-## [[menu.main]]
-##    name = "Blog"
-##    url = "/"
-##    weight = 1
-
+[[menu.main]]
+    name = "Home"
+    identifier = "home"
+    url = "/"
+    weight = 1
 [[menu.main]]
     name = "Work"
+    identifier = "work"
     url = "/page/work/"
-    weight = 1
-
+    weight = 2
 [[menu.main]]
     name = "CV"
+    identifier = "cv"
     url = "/page/cv/"
-    weight = 2
+    weight = 3
+
+[params]
+  subtitle = "Digital Projects Librarian <br> Toronto, ON"
+  logoTitle = "Kaitlin Newson"
+  favicon = "img/favicon.ico"
+  dateFormatToUse = "2006-01-02"
+  name = "Kaitlin Newson"
+
+  customCSS = ['custom.css']
+  customJS = []
+
+   moreMeta = true
+
+    [params.social]
+        a-email = "kaitlin@scholarsportal.info"
+        g-github = "kaitlinnewson"
+        c-twitter = "kaitlinnewson"
+        e-linkedin = "kaitlinnewson"
+        m-instagram = "librarypixels"
