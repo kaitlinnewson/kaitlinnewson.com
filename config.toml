@@ -1,47 +1,75 @@
 baseurl = "https://kaitlinnewson.com"
-title = "Kaitlin Newson"
-theme = "jane"
-enableRobotsTXT = true
-googleAnalytics = "UA-52735236-1"
-paginate = 3
+languageCode = "en-us"
 defaultContentLanguage = "en"
-hasCJKLanguage = false
+title = "Kaitlin Newson"
+theme = "hermit"
+publishDir = "docs"
+paginate = 10
+googleAnalytics = ""
+rssLimit = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 
 [author]
     name = "Kaitlin"
 
-
-[[menu.main]]
-    name = "Home"
-    identifier = "home"
-    url = "/"
-    weight = 1
-[[menu.main]]
-    name = "Work"
-    identifier = "work"
-    url = "/page/work/"
-    weight = 2
-[[menu.main]]
-    name = "CV"
-    identifier = "cv"
-    url = "/page/cv/"
-    weight = 3
-
 [params]
-  subtitle = "Digital Projects Librarian <br> Toronto, ON"
-  logoTitle = "Kaitlin Newson"
-  favicon = "img/favicon.ico"
-  dateFormatToUse = "2006-01-02"
-  name = "Kaitlin Newson"
 
-  customCSS = ['custom.css']
-  customJS = []
+    themeColor    = "#524f5d"
+    customCSS     = ['css/custom.css']
+    customJS      = []
 
-   moreMeta = true
+    dateform        = "Jan 2, 2006"
+    dateformShort   = "Jan 2"
+    dateformNum     = "2006-01-02"
+    dateformNumTime = "2006-01-02 15:04 -0700"
 
-    [params.social]
-        a-email = "kaitlin@scholarsportal.info"
-        g-github = "kaitlinnewson"
-        c-twitter = "kaitlinnewson"
-        e-linkedin = "kaitlinnewson"
-        m-instagram = "librarypixels"
+    name            = "Kaitlin Newson"
+    homeSubtitle    = "Digital Projects Librarian in Toronto"
+    email           = "kaitlin@scholarsportal.info"
+    favicon         = "img/favicon.ico"
+    footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/kaitlinnewson"
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/kaitlinnewson"
+
+  [[params.social]]
+    name = "email"
+    url = "mailto:kaitlin@scholarsportal.info"
+
+
+[blackfriday]
+  # hrefTargetBlank = true
+  # noreferrerLinks = true
+  # nofollowLinks = true
+
+[menu]
+
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  # [[menu.main]]
+  #   name = "Posts"
+  #   url = "posts/"
+  #   weight = 20
+
+  [[menu.main]]
+    name = "Work"
+    url = "work/"
+    weight = 20
+
+  [[menu.main]]
+    name = "CV"
+    url = "cv/"
+    weight = 30
+
+[taxonomies]
+  tag = "tags"
+  category = ""  # Categories are disabled by default.
