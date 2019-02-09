@@ -4,6 +4,7 @@ title: Work
 
 ## Presentations & Workshops
 
+* Code4Lib 2018 Workshop: Getting Started with Static Website Generators - [Slides](../c4l18), [Repo](https://github.com/kaitlinnewson/c4l18-workshop-staticweb)
 * [Code4Lib North 2017](../c4ln17) - Static Site Generators
 * [Code4Lib Toronto Workshop, 2017](../hugo201704) - Static website Generators
 * [Code4Lib 2017 Poster](../c4l17) - Static website generators: An overview

@@ -17,7 +17,7 @@
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '/css/print/pdf.css' : '/css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 	</head>
@@ -87,12 +87,12 @@
 
 				<section>
 					<p>Historical Topographic Map Digitization project <a href="https://ocul.on.ca/topomaps">https://ocul.on.ca/topomaps</a></p>
-					<img src="/img/201705-c4ln/topomaps.png" alt="Screenshot of the topographic maps website">
+					<img src="https://raw.githubusercontent.com/kaitlinnewson/c4l18-workshop-staticweb/master/slides/img/topomaps.png" alt="Screenshot of the topographic maps website">
 				</section>
 
 				<section>
 					<p>Archives Unleashed<br> <a href="http://archivesunleashed.org/">http://archivesunleashed.org/</a></p>
-					<img src="/img/c4l18/archivesunleashed.png" alt="Screenshot of the archives unleashed website">
+					<img src="https://raw.githubusercontent.com/kaitlinnewson/c4l18-workshop-staticweb/master/slides/img/archivesunleashed.png" alt="Screenshot of the archives unleashed website">
 				</section>
 
 				<section>
@@ -292,7 +292,7 @@ Today we’ll be learning about Markdown syntax. This sentence is separated by a
 						<pre><code>
 	mySiteName/
 	├── archetypes
-	│   └── default.md
+	│   └── default.md
 	├── config.toml
 	├── content
 	├── data
@@ -346,11 +346,9 @@ hugo new post/2018-01-01.md
 							<li>Can use logic, if statements, loops, variable comparisons, mathematical operators.</li>
 							<li>Use dot notation, e.g. .Params references params set in the config file.</li>
 						</ul>
-						<pre>
-							<code>
-	{{ if isset .Params "title" }}<h4>{{ index .Params "title" }}</h4>{{ end }}
-							</code>
-						</pre>
+						<pre><code>
+	&lbrace;&lbrace; if isset .Params "title" &rbrace;&rbrace;<h4>&lbrace;&lbrace; index .Params "title" &rbrace;&rbrace;</h4>&lbrace;&lbrace; end &rbrace;&rbrace;
+							</code></pre>
 					</section>
 
 					<section>
@@ -497,8 +495,8 @@ git push
 			</div>
 		</div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+		<script src="/lib/js/head.min.js"></script>
+		<script src="/js/reveal.js"></script>
 
 		<script>
 			// More info about config & dependencies:
@@ -506,10 +504,10 @@ git push
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
 				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: '/plugin/markdown/marked.js' },
+					{ src: '/plugin/markdown/markdown.js' },
+					{ src: '/plugin/notes/notes.js', async: true },
+					{ src: '/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
 		</script>
