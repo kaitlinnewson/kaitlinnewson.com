@@ -3,7 +3,6 @@ languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Kaitlin Newson"
 theme = "hermit"
-publishDir = "docs"
 paginate = 10
 googleAnalytics = ""
 rssLimit = 10  # Maximum number of items in the RSS feed.
