@@ -4,7 +4,7 @@ defaultContentLanguage = "en"
 title = "Kaitlin Newson"
 theme = "hermit"
 paginate = 10
-googleAnalytics = ""
+googleAnalytics = "UA-52735236-1"
 rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
@@ -60,7 +60,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   #   weight = 20
 
   [[menu.main]]
-    name = "Work"
+    name = "Work & Projects"
     url = "work/"
     weight = 20
 

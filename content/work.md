@@ -1,20 +1,21 @@
 ---
-title: Work
+title: Work & Projects
 ---
 
 ## Presentations & Workshops
 
-* Code4Lib 2018 Workshop: Getting Started with Static Website Generators - [Slides](../c4l18), [Repo](https://github.com/kaitlinnewson/c4l18-workshop-staticweb)
-* [Code4Lib North 2017](../c4ln17) - Static Site Generators
-* [Code4Lib Toronto Workshop, 2017](../hugo201704) - Static website Generators
-* [Code4Lib 2017 Poster](../c4l17) - Static website generators: An overview
+* [Code4Lib North 2019](https://slides.com/kaitlinnewson/docs) - "Building a successful documentation initiative"
+* Code4Lib 2018 - "Getting Started with Static Website Generators" (Workshop) - [Slides](../c4l18), [Repo](https://github.com/kaitlinnewson/c4l18-workshop-staticweb)
+* [Code4Lib North 2017](../c4ln17) - "Static Site Generators"
+* [Code4Lib Toronto Workshop, 2017](../hugo201704) - "Static website Generators"
+* [Code4Lib 2017 Poster](../c4l17) - "Static website generators: An overview"
 
 ## Publications
 
 * "Making the Move to Open Journal Systems 3: Recommendations for a (mostly) painless upgrade" (co-author), published 2019-02-14. Available at https://journal.code4lib.org/articles/14260.
 * "Tools and Workflows for Collaborating on Static Website Projects", published 2017-10-18. Available at https://journal.code4lib.org/articles/12779.
 
-## Scholars Portal
+## Scholars Portal Highlighted Projects
 
 * [Ask a Librarian service site](https://ask.scholarsportal.info/)
 * [Ontario Library Research Cloud service site](https://cloud.scholarsportal.info/)
@@ -24,13 +25,14 @@ title: Work
 * [RACER service request and user registration forms](https://racerforms.scholarsportal.info/)
 * [Scholars Portal service guides](https://learn.scholarsportal.info) (WordPress, migrated from LibGuides)
 
-## PKP
+## Public Knowledge Project
 
-* [PKP Docs Hub](https://docs.pkp.sfu.ca/) coordinator/contributor
+* [PKP Documentation Hub](https://docs.pkp.sfu.ca/) coordinator/contributor
 
 ## Code4Lib
 
-* [Code4lib.org](https://code4lib.org) contributor
+* [Code4Lib 2020 Conference site](https://2020.code4lib.org) group co-chair/contributor
+* [Code4Lib.org](https://code4lib.org) contributor
 * [Code4Lib 2019 Conference site](https://2019.code4lib.org) group chair/contributor
 * [Code4Lib 2018 Conference site](https://2018.code4lib.org) contributor
 
