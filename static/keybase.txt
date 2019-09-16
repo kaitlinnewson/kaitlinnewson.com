@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/kaitlinnewson
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kaitlinnewson.com
+  * I am kaitlinnewson (https://keybase.io/kaitlinnewson) on keybase.
+  * I have a public key with fingerprint 2520 1215 C925 0DD4 7713  0B11 D88B B9EA 8328 2D3A
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01205c483f0da09135c73566324a437dd57bfc7eae4361ec18fae722bf07be0d75d10a",
+      "fingerprint": "25201215c9250dd477130b11d88bb9ea83282d3a",
+      "host": "keybase.io",
+      "key_id": "d88bb9ea83282d3a",
+      "kid": "0101f1cba48435d5133ee9b03ce5e2d0ee6adb3cd7d555722bae0bb256bc396f72d10a",
+      "uid": "e0ad3b6221cfc1909d0a3427f58def19",
+      "username": "kaitlinnewson"
+    },
+    "service": {
+      "hostname": "kaitlinnewson.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1568646985,
+  "expire_in": 157680000,
+  "prev": "d772299224bd668ee43287ad285c663a94f3283e5967ee9afce00b7d06db13d1",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.3
+Comment: https://keybase.io/crypto
+
+yMNuAnicbVJtUFRVGN7NFYdtlA/RQZIhLn6A0no/9tyPHWCLotCaDSYm8ZPuvefc
+5QbsLruXXT7CTLKJ2shiJibKHNMsR6kAS6BgWwZpRuiHM0IEgTKFQ4omMo7AknQv
+o/88f86c933e533e5z09K5fpjPqh99uv1yQ/ZdH3Bb8s0+178+vtVZjghBWYpQor
+QksXKobIoxQUyRCzYDhB4kA0s5SEQx7nCAqIDAVomiLNvJliIASMIIkM4pGZogkk
+EqzEI4YkBQlnBIRDBkAC57FUTJIdduR2uWWHotKSgFSZCSByJMAhNDMMQeECQUCW
+FQQO8SxFsiSktMJCp0erUMUJvAeZZKcaUx8FS/IegX+oGyckQhR4M2umAAQERSHE
+CTglIoBIiCNE81CgRMhAAIAmmEe4IJCAFkSKoyWGfKC7bIkO4TykBJokCVESCQ7n
+IM5TZpKRAAuRRHAa0IPcDr4EaVp5WSmWHQ7k8zgdWHUqpqa8sog0d7VxHgUzic4S
+lcXldipO0VmspgsVxeWxaOVKhUvD+5BQ8ICpQJAdUHVUrfAit0dW21gIFSkqskZN
+AJqlzTTHglQMlbtkNyqQNQRgaBZXj9YHeTX/GHV0jiNJswBpmkXqFkmW4SHJAlFd
+Ms+ZJTVAIcDRjOofL4kIxwUG4jQUCAoSmDZbqcOpctOqTt6ucnpku4NXytwIq+4O
+7jXo9EZd2PLHtK+mM4ZHPvyA4y2ROv/IXaL7ce/wbX2sKaOx7mprbfbTDaeFr5q7
+TunRN/yJJ2d3iZ/Z7tR/Wrdy3F5pBJJ+Is7WUdIQ6Mxa6KhtTXzHb1j+a9xYc2pG
+x/S6mjTb9jyTG/xb9QSuC/a6vCffPhKVvaFw7NAbo7qRy3/OKjFV/jnRVv7xiUTD
+6u+aNs/lrR5tmY5Prjx73zR4NCridl5ufL7emoR3FYU2RlqNAfeRnf19H720x2aP
+1pFrgzHHJg/l/XaeGYnw789Yb624cjA09fLe4fpNQXvCjTzdgb7NvzTMRBi95Ymx
+fScvNiWGwerc2udsQ2v++Snned++ydHAfSnjQ1/3/rmFjk2vbRmsjVp07uiP9bZb
+c3/2r03PBKPWyJg9W1+cStgYNpCT+W0o5/i5NPoaymoauKQMW1o35DvGS1f8V5YQ
+HsipPHjDXvVH9vF3dwdbGmFmCooOHl5f2mY4t7u9kx/+/F7WUKlYuOotw8S6gmc6
+Q6PlcfNTHzQjxdT2bOuWY8s+kacXc+a9QxdenzgTyrTfPNDfXHyvZE0sf2HiTl1M
+Sv5Yw13fe1d8sD7lC90Z7PKKwYFs2NNjjT/Vcm3nC94y4odQ9KuLyVP04dyZwLb0
+3rO30pL+rtl2c+tV36rrC3Vt3Ynprxi6wqJQ767TKKlw5vuK6B2/R58/+uPF8Nn8
++VuTjYHgJaf/r3rT/zv/wwM=
+=lx7w
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kaitlinnewson
+
+==================================================================
