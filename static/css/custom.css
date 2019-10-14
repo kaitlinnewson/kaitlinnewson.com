@@ -8,3 +8,10 @@ body,
 a {
     color: #ededed;
 }
+
+a:active,
+a:hover,
+a:focus {
+    text-decoration: underline;
+    text-shadow: none;
+}

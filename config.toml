@@ -60,14 +60,19 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   #   weight = 20
 
   [[menu.main]]
-    name = "Work & Projects"
-    url = "work/"
+    name = "Presentations & Workshops"
+    url = "presentations/"
     weight = 20
 
   [[menu.main]]
-    name = "CV"
-    url = "cv/"
+    name = "Selected Projects"
+    url = "projects/"
     weight = 30
+
+  [[menu.main]]
+    name = "Publications"
+    url = "publications/"
+    weight = 40
 
 [taxonomies]
   tag = "tags"

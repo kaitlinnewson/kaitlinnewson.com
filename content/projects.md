@@ -1,22 +1,6 @@
 ---
-title: Work & Projects
+title: Selected Projects
 ---
-
-## Presentations & Workshops
-
-* Access 2019
-  * "Library publishing technology services at scale" - [Slides](https://docs.google.com/presentation/d/1gUugVwLKCLBMFlcYW59kA6sG6b2L7II3J99TutsxeUE/edit?usp=sharing), [Video](https://youtu.be/EHMCYGJKTgM)
-  * "Quick tips for sustaining a software documentation initiative" - [Slides](https://docs.google.com/presentation/d/1cWFC5i7kkN3ESpzax1NBkCxsfAVGZaifXD0U2uQjA40/edit?usp=sharing), [Video](https://youtu.be/-Vt1WBJMpXc)
-* [Code4Lib North 2019](https://slides.com/kaitlinnewson/docs) - "Building a successful documentation initiative"
-* Code4Lib 2018 - "Getting Started with Static Website Generators" (Workshop) - [Slides](../c4l18), [Repo](https://github.com/kaitlinnewson/c4l18-workshop-staticweb)
-* [Code4Lib North 2017](../c4ln17) - "Static Site Generators"
-* [Code4Lib Toronto Workshop, 2017](../hugo201704) - "Static website Generators"
-* [Code4Lib 2017 Poster](../c4l17) - "Static website generators: An overview"
-
-## Publications
-
-* "Making the Move to Open Journal Systems 3: Recommendations for a (mostly) painless upgrade" (co-author), published 2019-02-14. Available at https://journal.code4lib.org/articles/14260.
-* "Tools and Workflows for Collaborating on Static Website Projects", published 2017-10-18. Available at https://journal.code4lib.org/articles/12779.
 
 ## Scholars Portal Highlighted Projects
 
