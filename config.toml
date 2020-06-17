@@ -6,7 +6,7 @@ theme = "hermit"
 paginate = 10
 googleAnalytics = "UA-52735236-1"
 rssLimit = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+copyright = "" # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 
 [author]
@@ -27,7 +27,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     homeSubtitle    = "Digital Projects Librarian in Toronto"
     email           = "kaitlin@scholarsportal.info"
     favicon         = "img/favicon.ico"
-    footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    footerCopyright = ''
 
   [[params.social]]
     name = "twitter"
