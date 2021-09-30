@@ -2,6 +2,12 @@
 title: Presentations & Workshops
 ---
 
+## 2021
+
+Digital Pedagogy Institute - "Library Carpentry from in person to online: What was lost, what was gained"
+
+Open Repositories - "From Hard Drives to Globus: Supporting new workflows for large data transfer in libraries" - [Slides](https://doi.org/10.5281/zenodo.5021255)
+
 ## 2020
 
 CANARIE Research Data Management Workshop - "Dataverse for the Canadian Research Community" - [Slides](https://docs.google.com/presentation/d/13ze5b2NwAekTsRh4LONqA_Fgus-EmO8CoW52qALzvJ8/edit?usp=sharing)
