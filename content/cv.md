@@ -44,7 +44,7 @@ Sept 2011 – Aug 2013
 
 **Certificate in Computer Programming Applications**<br>
 Ryerson University<br>
-2018 – Present (In Progress)
+2018 – 2022
 
 **Master of Information**<br>
 University of Toronto<br>

@@ -2,13 +2,27 @@
 title: Presentations & Workshops
 ---
 
+## 2022
+
+Dataverse 2022 Community Meeting - "GeoJSON Preview in Dataverse" - [Slides](https://docs.google.com/presentation/d/1GyQIdayXE0Q4v6HKlxXjoY-JLZT1lX16oUIolS-IvwA/edit?usp=sharing), [Video](https://youtu.be/EACJJaV3O1c?t=600)
+
+Dataverse 2022 Community Meeting "‘One to Beam Up’: Migrating a Dataverse repository to a shared installation" - [Slides](https://docs.google.com/presentation/d/1hi5ozVmlHWmH0b0iPBfE4-sa9bcwXvCdDqH9jWgaTGk/edit?usp=sharing), [Video](https://youtu.be/eeCMN_5Nj_0?t=3523)
+
+US/Canada Datacite Community Call - "DOI use cases: Scholars Portal Dataverse"
+
 ## 2021
+
+Learn with Scholars Portal - "Getting started with web accessibility" - [Video](https://youtu.be/EYW_NI6R45s)
 
 Digital Pedagogy Institute - "Library Carpentry from in person to online: What was lost, what was gained"
 
 Open Repositories - "From Hard Drives to Globus: Supporting new workflows for large data transfer in libraries" - [Slides](https://doi.org/10.5281/zenodo.5021255)
 
+Library Publishing Forum - "Growing a Sustainable Publishing Technology Service for Libraries" - [Slides](https://librarypublishing.org/wp-content/uploads/2019/09/Growing-a-sustainable-newson-with-speaker-notes.pdf), [Video](https://www.youtube.com/watch?v=WB7XDJ8rFlo)
+
 ## 2020
+
+Dataverse 2020 Community Meeting - "The Dataverse Data Curation Tool" - [Slides](https://osf.io/5wezv/)
 
 CANARIE Research Data Management Workshop - "Dataverse for the Canadian Research Community" - [Slides](https://docs.google.com/presentation/d/13ze5b2NwAekTsRh4LONqA_Fgus-EmO8CoW52qALzvJ8/edit?usp=sharing)
 
