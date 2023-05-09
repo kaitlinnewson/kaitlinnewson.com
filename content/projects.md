@@ -7,6 +7,7 @@ title: Selected Projects
 * [Ask a Librarian service site](https://ask.scholarsportal.info/)
 * [Ontario Library Research Cloud service site](https://cloud.scholarsportal.info/)
 * [Permafrost service site](https://permafrost.scholarsportal.info)
+* [TDR documentation site](https://tdrdocs.scholarsportal.info/)
 * [TDR informational site](https://tdr.scholarsportal.info)
 * [OCUL Historical Topographic Maps Project site](https://ocul.on.ca/topomaps/)
 * [RACER service request and user registration forms](https://racerforms.scholarsportal.info/)
