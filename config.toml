@@ -3,31 +3,53 @@ languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Kaitlin Newson"
 theme = "hermit"
-paginate = 10
-googleAnalytics = "UA-52735236-1"
+# enableGitInfo = true
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
 rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "" # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
+googleAnalytics = "UA-52735236-1"
 
 [author]
     name = "Kaitlin"
 
-[params]
+[blackfriday]
+  # hrefTargetBlank = true
+  # noreferrerLinks = true
+  # nofollowLinks = true
 
-    themeColor    = "#524f5d"
-    customCSS     = ['css/custom.css']
-    customJS      = []
+[taxonomies]
+  tag = "tags"
+
+[params]
 
     dateform        = "Jan 2, 2006"
     dateformShort   = "Jan 2"
     dateformNum     = "2006-01-02"
     dateformNumTime = "2006-01-02 15:04 -0700"
 
-    name            = "Kaitlin Newson"
+    # Metadata mostly used in document's head
+    # description = ""
+    # images = [""]
+    themeColor    = "#524f5d"
+
     homeSubtitle    = "Digital Projects Librarian in Toronto"
-    email           = "kaitlin@scholarsportal.info"
-    favicon         = "img/favicon.ico"
     footerCopyright = ''
+    # bgImg = ""  # Homepage background-image URL
+
+    # Prefix of link to the git commit detail page. GitInfo must be enabled.
+    # gitUrl = "https://github.com/username/repository/commit/"
+
+    # Toggling this option needs to rebuild SCSS, requires Hugo extended version
+    justifyContent = false  # Set "text-align: justify" to `.content`.
+
+    relatedPosts = false  # Add a related content section to all single posts page
+
+    code_copy_button = true # Turn on/off the code-copy-button for code-fields
+  
+    # Add custom css
+    customCSS = ["css/custom.css"]
 
   [[params.social]]
     name = "twitter"
@@ -40,12 +62,6 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   [[params.social]]
     name = "email"
     url = "mailto:kaitlin@scholarsportal.info"
-
-
-[blackfriday]
-  # hrefTargetBlank = true
-  # noreferrerLinks = true
-  # nofollowLinks = true
 
 [menu]
 
@@ -73,7 +89,3 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     name = "Publications"
     url = "publications/"
     weight = 40
-
-[taxonomies]
-  tag = "tags"
-  category = ""  # Categories are disabled by default.
