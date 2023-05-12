@@ -11,7 +11,11 @@ title: Selected Projects
 * [TDR informational site](https://tdr.scholarsportal.info)
 * [OCUL Historical Topographic Maps Project site](https://ocul.on.ca/topomaps/)
 * [RACER service request and user registration forms](https://racerforms.scholarsportal.info/)
-* [Scholars Portal service guides](https://learn.scholarsportal.info) (WordPress, migrated from LibGuides)
+* [Scholars Portal service guides site](https://learn.scholarsportal.info) (WordPress, migrated from LibGuides)
+
+## Dataverse
+
+* [GeoJSON Data Preview tool](https://github.com/gdcc/dataverse-previewers)
 
 ## Public Knowledge Project
 
@@ -19,6 +23,7 @@ title: Selected Projects
 
 ## Code4Lib
 
+* [Code4Lib 2022 Conference site](https://2022.code4lib.org) contributor
 * [Code4Lib 2020 Conference site](https://2020.code4lib.org) group co-chair/contributor
 * [Code4Lib.org](https://code4lib.org) contributor
 * [Code4Lib 2019 Conference site](https://2019.code4lib.org) group chair/contributor
