@@ -2,7 +2,7 @@
 title: CV
 ---
 
-## Experience
+## Professional Experience
 
 **Digital Projects Librarian**<br>
 [Scholars Portal](https://scholarsportal.info)<br>
@@ -42,8 +42,8 @@ Sept 2011 – Aug 2013
 
 ## Education
 
-**Certificate in Computer Programming Applications**<br>
-Ryerson University<br>
+**Certificate in Computer Coding**<br>
+Toronto Metropolitan University<br>
 2018 – 2022
 
 **Master of Information**<br>
