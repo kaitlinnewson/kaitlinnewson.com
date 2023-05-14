@@ -36,7 +36,7 @@ May 2014 – Aug 2014
 [New College, University of Toronto](http://www.newcollege.utoronto.ca/academics/new-college-academic-programs/d-g-ivey-library/)<br>
 Sept 2013 – April 2014
 
-**Student Assistant**<br>
+**Digitization Assistant**<br>
 [Robertson Library, University of Prince Edward Island](https://library.upei.ca/)<br>
 Sept 2011 – Aug 2013
 
@@ -119,3 +119,62 @@ Code4Lib Toronto Workshop, 2017 - "Static website generators" - [Slides](../hugo
 "Making the Move to Open Journal Systems 3: Recommendations for a (mostly) painless upgrade" (co-author), published 2019-02-14. Available at https://journal.code4lib.org/articles/14260.
 
 "Tools and Workflows for Collaborating on Static Website Projects", published 2017-10-18. Available at https://journal.code4lib.org/articles/12779.
+
+## Professional Activities
+
+Maintainer of the [Library Carpentry Unix Shell lesson](https://github.com/LibraryCarpentry/lc-shell/)<br>
+2021 – Present
+
+Member of the Code4Lib Conference Accessibility Committee<br>
+2022
+
+Chair of the Public Knowledge Project Members Committee<br>
+2018 – 2022
+
+Member of the Public Knowledge Project Advisory Committee<br>
+2018 – 2022
+
+Member (2018/2022), Co-Chair (2020), and Chair (2019) of the Code4Lib Conference Web Committee<br>
+2017 – 2022
+
+Member of the Dataverse North Working Group, and Training Subgroup<br>
+2017 – 2022
+
+Coordinator of the Public Knowledge Project Documentation Interest Group<br>
+2018 – 2021
+
+Co-Organizer for the Code4Lib Toronto regional group<br>
+2017 – 2021
+
+Member of the University of Toronto Teaching Technology Interest Group<br>
+2020 – 2021
+
+Member of the University of Toronto Libraries RDM Working Group<br>
+2020
+
+Webmaster for the Association of Canadian Map Libraries and Archives<br>
+2015 – 2019
+
+Organizer for the Code4Lib North Conference<br>
+2018 – 2019
+
+Helper for Software Carpentry Workshops at the 2018 Access Conference and University of Toronto<br>
+2018
+
+Volunteer for Ontario Library Association Career Centre<br>
+2017
+
+Participant in Toronto Public Library Open Data Hackathon<br>
+2015
+
+Volunteer for Ontario Library Association Conference<br>
+2015
+
+Virtual Reference Intern for “Ask Ontario” (Ontario Colleges Library Service)<br>
+2014 – 2015
+
+Webmaster for Special Libraries Association Toronto Student Group<br>
+2014 – 2015
+
+Volunteer for Faculty of Information Student Conference<br>
+2014 – 2015

@@ -22,6 +22,11 @@ googleAnalytics = "UA-52735236-1"
 [taxonomies]
   tag = "tags"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
 
     dateform        = "Jan 2, 2006"
