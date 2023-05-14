@@ -70,22 +70,12 @@ googleAnalytics = "UA-52735236-1"
     url = "/"
     weight = 10
 
-  # [[menu.main]]
-  #   name = "Posts"
-  #   url = "posts/"
-  #   weight = 20
-
-  [[menu.main]]
-    name = "Presentations & Workshops"
-    url = "presentations/"
-    weight = 20
-
   [[menu.main]]
     name = "Selected Projects"
     url = "projects/"
-    weight = 30
+    weight = 20
 
   [[menu.main]]
-    name = "Publications"
-    url = "publications/"
-    weight = 40
+    name = "CV"
+    url = "cv/"
+    weight = 30
