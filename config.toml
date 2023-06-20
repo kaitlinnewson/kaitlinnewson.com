@@ -39,7 +39,7 @@ googleAnalytics = "UA-52735236-1"
     # images = [""]
     themeColor    = "#524f5d"
 
-    homeSubtitle    = "Digital Projects Librarian in Toronto"
+    homeSubtitle    = ""
     footerCopyright = ''
     # bgImg = ""  # Homepage background-image URL
 
