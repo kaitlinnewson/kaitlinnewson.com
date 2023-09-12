@@ -4,9 +4,13 @@ title: CV
 
 ## Professional Experience
 
+**Research Consultant (UPEI)**<br>
+[ACENET](https://ace-net.ca)<br>
+August 2023 - Present
+
 **Digital Projects Librarian**<br>
 [Scholars Portal](https://scholarsportal.info)<br>
-Feb 2016 – Present
+Feb 2016 – July 2023
 
 **I+IT Intern**<br>
 Children, Youth & Social Services IT Cluster, Ontario Public Service<br>
