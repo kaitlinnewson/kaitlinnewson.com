@@ -2,6 +2,14 @@
 title: CV
 ---
 
+- [Professional Experience](#professional-experience)
+- [Education](#education)
+- [Workshops](#workshops)
+- [Presentations](#presentations)
+- [Publications](#publications)
+- [Professional Activities](#professional-activities)
+
+
 ## Professional Experience
 
 **Research Consultant (UPEI)**<br>
@@ -19,10 +27,6 @@ July 2015 – January 2016
 **Graduate Student Reference Assistant**<br>
 [University of Toronto Scarborough Library](https://utsc.library.utoronto.ca/)<br>
 January 2015 – July 2015
-
-**Volunteer**<br>
-[Patient and Family Learning Centre, St. Michael’s Hospital](https://unityhealth.to/patients-and-visitors/patient-information/patient-and-family-learning-centres/)<br>
-January 2015 – April 2015
 
 **Practicum Student**<br>
 [Scholars Portal](https://scholarsportal.info)<br>
@@ -59,6 +63,14 @@ Library and Information Science Stream<br>
 University of Prince Edward Island<br>
 Women’s Studies, Psychology<br>
 2008 – 2013
+
+## Workshops
+
+[Introduction to SQL](https://librarycarpentry.org/lc-sql/) - [November 2023](https://acenet-arc.github.io/2023-11-15-ACENET-LC-SQL/)
+
+[Introduction to the Unix Shell](https://librarycarpentry.org/lc-shell/) - [June 2021](https://brockdsl.github.io/2021-06-07-brocku-online/), [August 2020](https://brockdsl.github.io/2020-08-19-Carpentry-Online/), & [June 2020](https://brockdsl.github.io/2020-06-04-Carpentry-Online/)
+
+[Getting Started with Static Website Generators](../c4l18) - [February 2018](https://2018.code4lib.org/workshops/getting-started-with-static-website-generators)
 
 ## Presentations
 
@@ -101,10 +113,6 @@ Access 2019 - "Library publishing technology services at scale" - [Slides](https
 Access 2019 - "Quick tips for sustaining a software documentation initiative" - [Slides](https://docs.google.com/presentation/d/1cWFC5i7kkN3ESpzax1NBkCxsfAVGZaifXD0U2uQjA40/edit?usp=sharing), [Video](https://youtu.be/-Vt1WBJMpXc)
 
 Code4Lib North 2019 - "Building a successful documentation initiative" - [Slides](https://slides.com/kaitlinnewson/docs)
-
-### 2018
-
-Code4Lib 2018 - "Getting Started with Static Website Generators" (Workshop) - [Slides](../c4l18), [Repository](https://github.com/kaitlinnewson/c4l18-workshop-staticweb)
 
 ### 2017
 
@@ -167,6 +175,9 @@ Helper for Software Carpentry Workshops at the 2018 Access Conference and Univer
 
 Volunteer for Ontario Library Association Career Centre<br>
 2017
+
+Volunteer for [Patient and Family Learning Centre, St. Michael’s Hospital](https://unityhealth.to/patients-and-visitors/patient-information/patient-and-family-learning-centres/)<br>
+2015
 
 Participant in Toronto Public Library Open Data Hackathon<br>
 2015
