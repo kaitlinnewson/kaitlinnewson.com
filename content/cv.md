@@ -74,6 +74,10 @@ Women’s Studies, Psychology<br>
 
 ## Presentations
 
+### 2024
+
+DRI Connect 2024 - "Documentation Best Practices"
+
 ### 2022
 
 Dataverse 2022 Community Meeting - "GeoJSON Preview in Dataverse" - [Slides](https://docs.google.com/presentation/d/1GyQIdayXE0Q4v6HKlxXjoY-JLZT1lX16oUIolS-IvwA/edit?usp=sharing), [Video](https://youtu.be/EACJJaV3O1c?t=600)
