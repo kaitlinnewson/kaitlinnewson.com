@@ -12,9 +12,13 @@ title: CV
 
 ## Professional Experience
 
+**Software Developer**<br>
+[Public Knowledge Project](https://pkp.sfu.ca)<br>
+June 2024 - Present
+
 **Research Consultant (UPEI)**<br>
 [ACENET](https://ace-net.ca)<br>
-August 2023 - Present
+August 2023 - June 2024
 
 **Digital Projects Librarian**<br>
 [Scholars Portal](https://scholarsportal.info)<br>
