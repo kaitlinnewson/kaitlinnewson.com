@@ -64,10 +64,6 @@ googleAnalytics = ""
     name = "linkedin"
     url = "https://www.linkedin.com/in/kaitlinnewson/"
 
-  [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/kaitlinnewson"
-
 [menu]
 
   [[menu.main]]
