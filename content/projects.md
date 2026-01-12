@@ -34,10 +34,3 @@ title: Selected Projects
 * [Carto 2019 conference site](https://acmla-acacc.ca/carto2019/)
 * [Carto 2017 conference site](https://acmla-acacc.ca/carto2017/)
 * [Carto 2016 conference site](https://acmla-acacc.ca/carto2016/)
-
-## University of Toronto MI Program
-
-* [Data Services Practicum, Scholars Portal](/docs/PracticumPoster.pdf) -- As a part of my practicum placement, I redesigned and updated the research guides for data services at Scholars Portal, including Scholars GeoPortal, odesi, and Dataverse.
-  * odesi guide [before](/img/guide_before.png) & [after](/img/guide_after.png)
-* [Dungeons of Metadata](https://www.youtube.com/watch?v=y4afH4-yFO4&list=UUOxogznliCU4qfytCvAr8_g) -- I created a game using RPG Maker for my "Metadata Schemas and Applications" class.
-* [Labour force survey custom tabulations](http://hdl.handle.net/10864/10949) -- For my "Data Librarianship" course, I wrote SAS programs to retrieve cross-tabulations from the Labour Force Survey in the Real-Time Remote Access system from Statistics Canada.
